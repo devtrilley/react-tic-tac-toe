@@ -1,5 +1,5 @@
 import Square from "./Square";
-import calculateWinner from "../utils"; // Ensure you have a winner function
+import calculateWinner from "../utils";
 
 export default function Board({ xIsNext, squares, onPlay }) {
   function handleClick(i) {

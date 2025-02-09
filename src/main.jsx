@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import Game from "./Game";
-import "./App.scss"; // Keep styles
+import "./App.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
